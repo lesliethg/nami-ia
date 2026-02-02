@@ -12,7 +12,6 @@ const QUESTIONS = [
   "Je suis à 32SA, est-ce que mes douleurs sont normales ?",
   "Quels sont les achats à faire avant l'arrivée de bébé ?",
   "A combien de semaines bébé reconnait ma voix ?",
-  "Compare ce modèle de poussette avec...",
 ];
 
 const FINAL_HEADLINE = "On pose déjà tous nos questions à une IA.";

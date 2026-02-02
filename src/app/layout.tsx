@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Un assistant IA grossesse et post-partum sécurisé qui répond à toutes vos questions | Nami",
   description: "Nami est un compagnon IA pensé pour la grossesse et le post-partum. Pose tes questions en toute confidentialité, avec une mémoire contrôlée et un respect total de ta vie privée.",
+  icons: {
+    icon: "/brain.svg",
+  },
 };
 
 export default function RootLayout({
