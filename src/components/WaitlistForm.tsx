@@ -64,7 +64,7 @@ export default function WaitlistForm({ variant = "hero" }: WaitlistFormProps) {
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="ton.email@gmail.com"
+          placeholder="Votre adresse e-mail"
           disabled={state === "loading"}
           required
           className={
@@ -100,8 +100,8 @@ export default function WaitlistForm({ variant = "hero" }: WaitlistFormProps) {
       )}
 
       {/* Micro-copy rassurante */}
-      {state === "idle" && !isHero && (
-        <p className="mt-4 text-xs text-slate-500">
+      {state === "idle" && (
+        <p className={isHero ? "mt-2 text-xs text-slate-500" : "mt-4 text-xs text-slate-500"}>
           Un seul email au lancement. Aucun spam.
         </p>
       )}

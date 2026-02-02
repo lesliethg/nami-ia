@@ -152,7 +152,7 @@ export default function TypewriterHeroTitle() {
     <div className="space-y-6">
       <div className="min-h-[4rem] md:min-h-[5rem] flex items-start">
         {showFinal ? (
-          <h1 className="text-2xl font-extrabold leading-tight md:text-3xl opacity-0 animate-[fadeIn_0.5s_ease-in_0.1s_forwards]">
+          <h1 className="text-2xl font-extrabold leading-tight md:text-3xl opacity-0 animate-[fadeIn_0.2s_ease-out_forwards]">
             On pose déjà tous nos{" "}
             <span className="relative">
               <span className="relative z-10">questions</span>
